@@ -25,7 +25,7 @@ Set up these connections in Airflow:
 Ensure PostgreSQL is running and create the necessary database for weather data storage.
 
 ### 4. DAG File
-The pipeline logic is defined in the `weather_etl_pipeline.py` file:
+The pipeline logic is defined in the `etlweather.py` file:
 - **Extract**: Fetches weather data from Open-Meteo API.
 - **Transform**: Transforms the weather data.
 - **Load**: Loads the transformed data into PostgreSQL.
