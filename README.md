@@ -1,6 +1,7 @@
 # ETL Weather Pipeline
 
 This project demonstrates an ETL pipeline built with **Apache Airflow** to extract weather data from the **Open-Meteo API**, transform it, and load it into a **PostgreSQL database**.
+![Airflow](Airflow.png)
 
 ## Prerequisites
 
