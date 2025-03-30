@@ -1,6 +1,6 @@
 # ETL Weather Pipeline
 
-This project demonstrates an ETL pipeline built with **Apache Airflow** to extract weather data from the **Open-Meteo API**, transform it, and load it into a **PostgreSQL database**. The pipeline runs daily and is orchestrated with Astro.
+This project demonstrates an ETL pipeline built with **Apache Airflow** to extract weather data from the **Open-Meteo API**, transform it, and load it into a **PostgreSQL database**.
 
 ## Prerequisites
 
@@ -8,11 +8,6 @@ This project demonstrates an ETL pipeline built with **Apache Airflow** to extra
 - **Astro**
 - **PostgreSQL**
 - **Open-Meteo API**
-- **Python Libraries**: 
-  - `airflow.providers.http`
-  - `airflow.providers.postgres`
-  - `requests`
-  - `json`
 
 ## Setup
 
@@ -37,7 +32,5 @@ The pipeline logic is defined in the `weather_etl_pipeline.py` file:
 
 ### 5. Run the Pipeline
 - Use Astro to orchestrate the DAG.
-- The pipeline runs daily, extracting and loading weather data into the database.
-
-## License
-This project is licensed under the MIT License.
+```bash
+astro dev start
